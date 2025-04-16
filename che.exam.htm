@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Website</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            padding-top: 50px;
+            background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/wood-slab.png');
+            background-repeat: repeat;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        header nav ul li {
+            margin: 0 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        header nav ul li a:hover {
+            color: #f4f4f4;
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 2px;
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/dark-mosaic.png');
+            background-size: cover;
+            position: relative;
+        }
+
+        #hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* About Section */
+        #about {
+            background-color: white;
+            padding: 40px;
+            text-align: center;
+            background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/diagonal_stripes.png');
+            background-repeat: repeat;
+        }
+
+        #about h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 700;
+        }
+
+        #about p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* Services Section */
+        #services {
+            background-color: #f9f9f9;
+            padding: 40px;
+            text-align: center;
+            background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/pw-maze.png');
+            background-size: 250px;
+            background-position: center center;
+        }
+
+        #services h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 700;
+        }
+
+        #services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #services ul li {
+            font-size: 1.2rem;
+            color: #444;
+            margin: 10px 0;
+        }
+
+        /* Personal Interests Sections */
+        #hobbies, #projects {
+            padding: 40px;
+            text-align: center;
+            background-color: white;
+        }
+
+        #hobbies h2, #projects h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 700;
+        }
+
+        #hobbies ul, #projects ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #hobbies ul li, #projects ul li {
+            font-size: 1.2rem;
+            color: #444;
+            margin: 10px 0;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            position: relative;
+        }
+
+        footer p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: #f4f4f4;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #a2a2a2;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header nav ul {
+                flex-direction: column;
+            }
+
+            #hero h1 {
+                font-size: 2.5rem;
+            }
+
+            #hero p {
+                font-size: 1rem;
+            }
+
+            #about h2, #services h2, #hobbies h2, #projects h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Hobbies</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section id="hero">
+            <h1>Welcome to My Website</h1>
+            <p>Your go-to place for amazing content!</p>
+        </section>
+
+        <section id="about">
+            <h2>About it</h2>
+            <p>My topic is all about my personal interests</p>
+        </section>
+
+               
+                
+            </ul>
+        </section>
+
+        <!-- Hobbies -->
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Cleaning the house and outside</li>
+                <li>Cooking dishes and desserts</li>
+                <li>Playing online games for entertainment</li>
+                <li>Learning new languages (currently learning Japanese)</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Interests</h2>
+            <ul>
+                <li>I love dogs especially puppies and hairy dogs
+                <li>I love to learn other countries' languages
+                <li>I love reading digital books especially romance
+
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Website</p>
+        <p>Follow us on <a href="#">Social Media</a></p>
+    </footer>
+
+</body>
+</html
+
+
